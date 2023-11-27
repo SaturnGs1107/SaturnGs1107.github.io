@@ -1,0 +1,179 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Anton', sans-serif;
+    background-color: rgb(183, 4, 4);
+    
+}
+
+
+header{
+
+    box-shadow: .1rem .1rem 1rem 1rem black;
+    border-top: 2.5rem solid rgb(255, 23, 0);
+    border-left: 1.5rem solid rgb(255, 23, 0);
+    border-right: 1.5rem solid rgb(255, 23, 0);
+    border-bottom: 2.5rem solid rgb(255, 23, 0);
+background-color:rgb(255, 228, 0) ;
+    font-size: 1.5rem;
+
+
+}
+h1 {
+
+color: rgb(248, 111, 3);
+    text-align: center;
+padding: 6.5rem;
+max-width: 100%;
+
+
+}
+.corazon {
+    color: yellow;
+}
+p{
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 4rem;
+    padding: 1.5rem;
+    color: white;
+    box-shadow: .1rem .1rem 0rem .1rem black;
+    border-radius: 2rem 3rem;
+}
+
+span{
+    font-size: 5rem;
+    animation: heart 5s linear infinite;
+}
+.textco {
+font-size: 5rem;
+    animation: textcolo 5s linear infinite ;
+}
+@keyframes textcolo {
+    
+    0%{
+      color: rgb(255, 23, 0);
+    }
+     25%{
+    color: rgb(254, 255, 219);
+     }
+     50%{
+     color: rgb(255, 228, 0);
+     }
+     75%{
+     color: rgb(255, 142, 0);
+     }
+     100%{
+        color: rgb(255, 23, 0);
+     }
+}
+@keyframes heart{
+    
+    0%{
+      color: rgb(255, 23, 0);
+    }
+     25%{
+    color: rgb(254, 255, 219);
+     }
+     50%{
+     color: rgb(255, 228, 0);
+     }
+     75%{
+     color: rgb(255, 142, 0);
+     }
+     100%{
+        color: rgb(255, 23, 0);
+     }
+}
+
+.container button{
+
+
+position: absolute;
+    background-color: rgb(255, 23, 0);
+    color: white;
+   
+display: flex;
+align-items: center;
+justify-content: center;
+  
+
+}
+.textco1{
+    animation: textcolo 5s linear infinite ;
+    font-size: 3rem;
+}
+button{
+
+
+    background:rgb(255, 23, 0);
+    color:#fff;
+    border:none;
+    position:relative;
+    height:60px;
+    font-size:1.6em;
+    padding:0 2em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+  }
+  button:hover{
+    background:#fff;
+    color:rgb(255, 23, 0);
+  }
+  button:before,button:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: rgb(255, 23, 0);
+    transition:400ms ease all;
+  }
+  button:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  button:hover:before,button:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+ 
+  @media (max-width : 900px) and (min-width : 300px)  {
+
+    .container {
+        margin: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+  }
+  @media (max-width : 1024px) and (min-width : 768px) {
+
+    .container{
+ margin: 5rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+    }
+
+  }
+  @media (min-width : 1440px) and (min-width : 900px) {
+
+    
+    .container{
+ margin: 5rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+    }
+
+  }

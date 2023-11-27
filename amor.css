@@ -1,0 +1,188 @@
+html {
+
+font-size: 62.5%;
+
+}
+
+header{
+
+   padding: 5rem;
+    text-align: center;
+    background-color: rgb(255, 143, 143);
+    font-style: oblique;
+
+    font-size: 2.5em;
+ 
+    max-width: 100%;
+box-shadow: inset .3rem .3rem .5rem .5rem black;
+    border-top: 3rem solid black;
+
+    border-left: 2rem solid black;
+    border-right: 2rem solid black;
+    border-bottom: 2rem solid rgb(244, 80, 80);
+}
+
+
+
+@media (max-width : 900px) and (min-width : 300px) { /** Aplicacion De Cambios Moviles Horizontalmente **/
+
+header {
+padding: 5rem;
+background-color: rgb(41, 173, 178);
+color: white;
+
+box-shadow: inset .3rem .3rem .5rem .5rem black;
+border-top: 3rem solid black;
+
+border-left: 2rem solid black;
+border-right: 2rem solid black;
+border-bottom: 2rem solid rgb(244, 80, 80);
+max-width: 100%;
+
+}
+}
+@media (max-width : 1024px) and (min-width : 768px) { /** Aplicacion De Cambios En Tablet Horizontalmente **/
+
+    header {
+        padding: 5rem;
+        background-color: rgb(41, 173, 178);
+        color: white;
+        
+        box-shadow: inset .3rem .3rem .5rem .5rem black;
+        border-top: 3rem solid black;
+        max-width: 100%;
+        border-left: 2rem solid black;
+        border-right: 2rem solid black;
+        border-bottom: 2rem solid rgb(244, 80, 80);
+    }        
+
+}
+
+        body {
+         background-color: rgb(244, 80, 80);
+       
+            font-family: 'Oswald', sans-serif;
+}
+
+
+.historia {
+
+
+    font-size: 2.5rem;
+    line-height: 8rem;
+
+    text-align: center;
+background-color: rgb(244, 80, 80);
+color: white;
+border-radius: 2.5rem;
+text-transform: capitalize;
+margin-top: 5rem;
+margin-left: 15rem;
+margin-right: 15rem;
+box-shadow: .5rem .5rem 1rem 1rem black;
+max-width: 100%;
+
+}
+
+@media (max-width : 900px) and (min-width : 300px) { /** Aplicacion De Cambios Moviles Horizontalmente **/
+
+.historia {
+    margin-top: 4rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    box-shadow: .5rem .5rem 1rem 1rem rgb(78, 2, 2);
+    max-width: 100%;
+}
+
+}
+
+
+
+@media (max-width : 1024px) and (min-width : 768px) { /** Aplicacion De Cambios En Tablet Horizontalmente **/
+    .historia {
+        margin-top: 4rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        box-shadow: .5rem .5rem 1rem 1rem rgb(78, 2, 2);
+        max-width: 100%;
+    }
+}
+.myself {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+
+}
+.boton-nose {
+
+    display: flex;
+justify-content: center;
+align-items: center;
+max-width: 100%;
+}
+
+
+button {
+
+background: black;
+cursor: pointer;
+border: none;
+padding: 2rem 8.5rem;
+color: white;
+font-weight: bold;
+position: relative;
+border-radius: 0 0 3rem 3rem;
+
+}
+button::before{
+    content: "";
+    position: absolute;
+   top: 0;
+   right: 0;
+   z-index: -1;
+   width: 100%;
+   height: 100%;
+background: linear-gradient(
+ 45deg,
+ red, blue, deeppink, blue,
+ orange, blue, yellow, rgb(2, 255, 2)   
+);
+background-size: 800%;
+border-radius: 1rem;
+filter: blur(.8rem);
+animation: glowing 20s linear infinite;
+}
+@keyframes glowing {
+
+    0% {
+        background-position: 0 0 ;
+    }
+     50% {
+        background-position: 400% 0;
+
+     }
+     100% {
+        background-position: 0 0 ;
+    }
+}
+
+
+footer {
+
+background-color: black;
+margin-top: 35rem;
+padding: 5rem;
+color: aliceblue;
+font-size: 1.5rem;
+text-align: center;
+border-top: 3rem solid rgb(244, 80, 80);
+
+border-left: 2rem solid white;
+border-right: 2rem solid white;
+border-bottom: 2rem solid white;
+box-shadow: inset .3rem  .5rem .5rem  white;
+max-width: 100%;
+}

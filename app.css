@@ -1,0 +1,416 @@
+body html {
+    margin: 0;
+    padding: 0;
+   height: 100%;
+}
+html {
+    font-size: 62.5%;
+}
+
+
+header {
+
+    animation: colortext 5s  ease infinite;
+
+}
+
+@keyframes colortext {
+    0% {    background-color: rgb(253, 181, 181);  }
+25% {    background-color: rgb(245, 167, 167);  }
+50% {   background-color: rgb(245, 100, 100);  }
+75% {    background-color: rgb(255, 4, 4);  }
+100% {    background-color: rgb(253, 181, 181); }
+}
+
+  
+  @media (max-width : 900px) and (min-width : 300px) { /** Aplicacion De Cambios Moviles Horizontalmente **/
+
+    h1 {
+        
+        color: rgb(131, 131, 131);
+    
+    
+        }
+    
+        p {
+            color: white;
+        }
+    } 
+
+
+
+
+@media (max-width : 1024px) and (min-width : 768px) { /** Aplicacion De Cambios En Tablet Horizontalmente **/
+
+    h1 {
+        
+        color: rgb(131, 131, 131);
+    
+    
+        }
+    
+        p {
+            color: white;
+        }
+
+}  
+
+
+.nose12 {
+
+    font-size: 3.2rem;
+    font-style: italic;
+    
+
+}
+
+
+ span {
+    color: rgb(255, 110, 110);
+    font-style: italic;
+  
+    
+    
+}
+
+
+@media (max-width : 900px) and (min-width : 300px) { /** Aplicacion De Cambios Moviles Horizontalmente **/
+    span {
+        color: rgb(153, 153, 0)
+     }
+
+  } 
+
+
+
+
+@media (max-width : 1024px) and (min-width : 768px) { /** Aplicacion De Cambios En Tablet Horizontalmente **/
+    span {
+        color: rgb(153, 153, 0)
+     }
+
+}  
+     
+
+
+
+
+.texto{
+
+    text-align: center;
+    font-size: 2.5rem;
+text-transform: capitalize;
+padding: 1rem;
+}
+
+
+
+body  {
+   
+   
+font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    color: #121212;
+    overflow-x: hidden;
+
+ 
+
+}
+
+
+
+
+@media (max-width : 900px) and (min-width : 300px) { /** Aplicacion De Cambios Moviles Horizontalmente **/
+
+    body {
+        background-color: #025464
+     }
+
+  } 
+  
+
+
+@media (max-width : 1024px) and (min-width : 768px) { /** Aplicacion De Cambios En Tablet Horizontalmente **/
+
+    body {
+        background-color: #025464
+     }
+
+}  
+
+.Caren {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+    background-color: #B70404;
+    color: #fff;
+    padding: 1rem;
+    border-top: 1.5rem solid black ;
+    border-bottom: 1.5rem solid black;
+    padding: 15px;
+    border-left: 1rem solid black;
+    border-right: 1rem solid black;
+ 
+}
+
+
+  
+
+@media (max-width : 900px) and (min-width : 300px) { /** Aplicacion De Cambios Moviles Horizontalmente **/
+
+    .Caren {
+
+        animation: colorbackground 5s  linear infinite;
+        background-color: rgb(255, 253,110 );
+      border-bottom: 3rem solid #000000;
+      border-top: 3rem solid black;
+      padding: 2rem;
+    }
+    @keyframes colorbackground {
+        0% {    background-color: rgb(253, 246, 181);  }
+    25% {    background-color: rgb(245, 244, 167);  }
+    50% {   background-color: rgb(241, 238, 65);  }
+    75% {   background-color:  rgb(255, 251, 4);  }
+    100% {   background-color:  rgb(253, 246, 181); }
+}
+
+
+}
+
+
+@media (max-width : 1024px) and (min-width : 768px) { /** Aplicacion De Cambios En Tablet Horizontalmente **/
+
+    .Caren {
+
+        animation: colorbackground 5s  linear infinite;
+        background-color: rgb(255, 253,110 );
+      border-bottom: 3rem solid #000000;
+      border-top: 3rem solid black;
+      padding: 2rem;
+    }
+    @keyframes colorbackground {
+        0% {    background-color: rgb(253, 246, 181);  }
+    25% {    background-color: rgb(245, 244, 167);  }
+    50% {   background-color: rgb(241, 238, 65);  }
+    75% {    color: rgb(255, 251, 4);  }
+    100% {    color: rgb(253, 246, 181); }
+}
+}  
+
+
+nav a{
+    display: inline-block;
+    background-color: #B70404;
+ color: #fff;
+ border-radius: 45px;
+    text-decoration: none;
+
+
+
+}
+
+
+
+.pato {
+
+max-width: 1200px;
+margin: 0 auto;
+object-fit: cover;
+
+}
+
+
+.imagenes-nosotros {
+
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    max-height: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+
+}
+
+img {
+
+max-width: 100%;
+display: block;
+  height: auto;
+  
+
+}
+
+
+.decoration a{
+
+    border-color: rgb(238, 125, 125);
+    border-style: groove;
+    padding: 2rem;
+    display: block;
+    text-align: center;
+    color: #37AA9C;
+text-decoration: none;
+font-size: 2rem;
+border-radius: 0rem 0rem 4.5rem 4.5rem;
+
+}
+
+.decoration a:hover {
+
+    border-color: yellow;
+    border-style: groove;
+    background-color: #000000;
+    color: #fff;
+   
+   
+}
+
+@media (max-width : 900px) and (min-width : 300px) { /** Aplicacion De Cambios Moviles Horizontalmente **/
+.decoration a {
+    background-color: rgb(70, 130, 169);
+    color: #98E4FF;
+border-color: rgb(180, 189, 255);
+}
+
+.decoration a:hover {
+border-color: rgb(0, 223, 162);
+background-color: #3120E0;
+}    
+
+}
+
+@media (max-width : 1024px) and (min-width : 768px) { /** Aplicacion De Cambios En Tablet Horizontalmente **/
+.decoration a {
+    background-color: rgb(70, 130, 169);
+    color: #98E4FF;
+border-color: rgb(180, 189, 255);
+}
+
+.decoration a:hover {
+border-color: rgb(0, 223, 162);
+background-color: #3120E0;
+}
+
+
+}
+
+footer {
+    display: block;
+    padding: 10rem  10rem;
+background-color: #B70404;
+position: relative;
+margin-top: 25rem;
+color: #fff;
+text-align: center;
+font-size: 2.5rem;    
+border-top: 3rem solid black;
+z-index: 2;
+border-left: 2rem solid black;
+border-right: 2rem solid black;
+border-bottom: 2rem solid black;
+animation: backcolor 5s infinite;
+
+
+}
+
+
+@keyframes backcolor {
+    0% {    background-color: #ff3636;  }
+25% {    background-color: #e92424;  }
+50% {   background-color: #ff3c3c;  }
+75% {   background-color:  #ff0b0b  }
+100% {   background-color:  #ff3636; }
+}
+
+
+@media (max-width : 900px) and (min-width : 300px) { /** Aplicacion De Cambios Moviles Horizontalmente **/
+
+    footer {
+
+        background-color: rgb(255, 196, 54);
+       font-size: 3rem;
+       animation: backgroundcol 6s infinite;
+  
+    }
+footer p {
+    color: #000000;
+
+}
+    
+    @keyframes backgroundcol {
+        0% {    background-color: #FFC436;  }
+    25% {    background-color: #E9B824;  }
+    50% {   background-color: #FFA33C;  }
+    75% {   background-color:  #FFC60B  }
+    100% {   background-color:  #FFC436; }
+    }
+
+
+    }
+    
+    @media (max-width : 1024px) and (min-width : 768px) { /** Aplicacion De Cambios En Tablet Horizontalmente **/
+   
+
+        footer {
+
+            background-color: rgb(255, 196, 54);
+           font-size: 3rem;
+           animation: backgroundcol 6s infinite;
+      
+        }
+    footer p {
+        color: #000000;
+        
+    }
+        
+        @keyframes backgroundcol {
+            0% {    background-color: #FFC436;  }
+        25% {    background-color: #E9B824;  }
+        50% {   background-color: #FFA33C;  }
+        75% {   background-color:  #FFC60B  }
+        100% {   background-color:  #FFC436; }
+        }
+
+    }
+    
+
+
+.amor3 {
+
+text-align: center;
+
+
+}
+
+.inicio2 {
+
+text-align: center;
+
+
+
+}
+
+
+
+
+.decoration img {
+
+    border-radius: 2.5rem 2.5rem 0rem 0rem;
+    max-width: 100%;
+    display: block;
+
+
+
+    
+
+}
+ 
+
+
+
+
